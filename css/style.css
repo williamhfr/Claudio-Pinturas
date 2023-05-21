@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap');
+
+
+html{
+    
+    background-image: url("https://media.istockphoto.com/id/919507224/pt/foto/plastered-concrete-wall.jpg?s=612x612&w=0&k=20&c=FoekZ4rxSS4mEWHS90fEX-nDU7XqsJPUhVbLh4QGRHA=");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 100%;
+  
+    
+}
+
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+    align-items: center;
+    
+        
+    } 
+
+    a{
+        text-decoration: none;
+        color: black;
+
+    }
+
+    aside{
+
+        background-color:rgb(29, 29, 29,0.8);
+        color: blanchedalmond;
+        align-items: center;
+        justify-content: center;
+        padding:5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: 5%;
+        background-size: auto 100%;
+        
+    }
+
+
+    header{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-size: auto 100%;
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgb(255, 255, 255) 80%, rgba(255,255,255,0) 100%);
+    
+        
+    }
+
+    #menu{
+
+
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        
+       
+
+    }
+    
+    #menu a{
+
+        font-family: 'Archivo', sans-serif;
+        font-size: 30px;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        padding: 40px;
+        
+    }
+    .redes ul li a img{
+        display: block;
+        width: 50px;
+    }
+        
+    .redes ul{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: center;
+        padding: 10px;
+        
+    } 
+   
+    .galeria *{
+
+        margin: 0;
+        padding:0;
+
+
+    }
+    .galeria ul{
+
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 100px auto;
+    }
+    .min{
+        
+        width: 350px;
+        height: 200PX;
+        padding:10px;
+      
+    }
+    .job h1{
+
+        text-align: center;
+    }
+    .contatos h1{
+
+        text-align: center;
+    }
+    #contato{  
+
+        display: flex;
+        text-align: start;
+        margin: 50px;
+     
+     
+    }
+
+    .mapa iframe{
+
+        width: 500px;
+        height: 300px;
+       
+    }
+    .contatos {
+
+        display: flex;
+        align-items: center;
+        margin: 50px;
+        
+
+
+    }
+    .rodape p{
+
+        text-align: end;
+        margin: 10px; 
+        
+     }
+
+    .galeria img{
+
+
+        width: auto;
+
+
+    }
+    @media (max-width: 768px){
+        .galeria ul{
+
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: auto;
+        }
+
+        .contatos {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: auto;      
+       
+        }
+
+        .mapa iframe{
+
+            width: auto;
+            
+
+        }
+        html{
+
+            background-repeat: no-repeat;
+            background-position: top right;
+            background-size: auto 100%;
+        }
+       
+      }

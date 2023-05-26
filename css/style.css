@@ -39,6 +39,7 @@ body, ul, li, p{
     }
 
     aside{
+
         background-color:rgb(29, 29, 29,0.8);
         color: blanchedalmond;
         align-items: center;
@@ -53,6 +54,7 @@ body, ul, li, p{
 
 
     header{
+        
         display: flex;
         flex-direction: column;
         align-items: center;

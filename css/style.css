@@ -11,6 +11,15 @@ html{
     
 }
 
+@keyframes entering {
+    from{opacity:0;
+    transform: translateY(-200px);
+    }
+    to{opacity:1;
+    transform: translateY(0);
+    }
+  }
+
 body, ul, li, p{
     margin: 0px;
     padding: 0px;
@@ -30,7 +39,6 @@ body, ul, li, p{
     }
 
     aside{
-
         background-color:rgb(29, 29, 29,0.8);
         color: blanchedalmond;
         align-items: center;
@@ -45,7 +53,6 @@ body, ul, li, p{
 
 
     header{
-
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -53,23 +60,21 @@ body, ul, li, p{
         background-size: auto 100%;
         background: rgb(255,255,255);
         background: linear-gradient(180deg, rgb(255, 255, 255) 80%, rgba(255,255,255,0) 100%);
-    
-        
+            
+    }
+
+    .galeria li a img{
+        width: 300px;
     }
 
     #menu{
-
-
         display:flex;
         justify-content:center;
         align-items: center;
         
-       
-
     }
     
     #menu a{
-
         font-family: 'Archivo', sans-serif;
         font-size: 30px;
         display: flex;
@@ -78,28 +83,26 @@ body, ul, li, p{
         padding: 40px;
         
     }
+
     .redes ul li a img{
         display: block;
         width: 50px;
     }
         
     .redes ul{
-
         display: flex;
         flex-wrap: wrap;
         justify-content: start;
         align-items: center;
         padding: 10px;
-        
     } 
    
     .galeria *{
 
         margin: 0;
         padding:0;
-
-
     }
+
     .galeria ul{
 
         list-style: none;
@@ -155,12 +158,15 @@ body, ul, li, p{
      }
 
     .galeria img{
-
-
         width: auto;
-
-
     }
+
+    a img{
+
+        animation: entering 0.7s ease-in-out;
+    }
+
+
     @media (max-width: 768px){
         .galeria ul{
 
